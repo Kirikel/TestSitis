@@ -1,0 +1,381 @@
+body, html {
+    background: #FAFDFE;
+    font-family: 'Allerta', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:580%;
+}
+
+.preview__block {
+    background: url("../img/gradient_bg.png");
+    background-repeat: no-repeat;
+    flex-grow: 1;
+}
+
+.menu, .menu__title, .nav__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu__title,.nav__list {
+    align-items: flex-end;
+}
+
+.menu__text {
+    font-size: 25px;
+    color: white;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+.menu__title {
+    margin-left: 99px;
+    margin-top: 40px;
+    margin-right: 283px;
+}
+
+.nav__list {
+    margin-left: 283px;
+}
+
+.nav__list__item {
+    font-size: 18px;
+    line-height: 45px;
+    justify-content: space-between;
+    margin-left: 49.67px;
+}
+
+.interact__items {
+    margin-left: 344px;
+}
+
+
+.interact__item {
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.24);
+    margin-left: 18px;
+    margin-top: 60px;
+}
+
+.preview__info {
+    display: flex;
+    flex-direction: column;
+
+    margin-left:266px;
+    margin-top: 104px;
+
+    min-height: 100%;
+}
+
+.preview__info__header {
+    font-size: 91px; 
+    line-height: 96px; 
+    width: 906px;
+    height: 286px; 
+    color:#1D3043;
+}
+
+.preview__info__subheader {
+    font-size: 20px;
+    line-height: 34px;
+    width: 699px;
+    height: 100px; 
+    color:#1D3043;
+    margin-top: 60px;
+}
+
+.preview__info__btn {
+    background-color:#1890FFA1;
+    width: 154px;
+    height: 55px;
+    border-radius: 14px;
+    border: none;
+    font-weight:bold;
+    color: white;
+    margin-top: 34px;
+}
+
+.info__blocks {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    flex-grow: 1;
+}
+
+.info__block__header {
+    color: #2C465E;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 96px;
+    text-align: center;
+}
+
+.info__container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 221.5px;
+    margin-top: 100px;
+
+    width: 1550px;
+}
+
+.info__container__item {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+    width: 350px;
+    height: 486px;
+}
+
+.info__container__item__header {
+    color: #3D3ABA;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42.8px;
+
+    text-align: center;
+}
+
+.info__container__item__subheader {
+    color: #3D3ABA;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 31.62px;
+
+    text-align: center;
+}
+
+.info__container__item__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.info__container__item__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+}
+
+.sms__feature__block {
+    background: url("../img/black_bg.png");
+    background-repeat: no-repeat;
+
+    height: 474px;
+    flex-grow: 1;
+}
+
+.sms__feature__image {
+    width: 454.38px;
+    height: 492.35px;
+
+    margin-left: 349px;
+}
+
+.sms__feature__container {
+    margin-top: 220.56px;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 180px;
+}
+
+.sms__feature__description {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 686px;
+
+    margin-top: 100px;
+}
+
+.sms__feature__description__header, .sms__feature__description__subheader {
+    color: white;
+    text-align: left;
+}
+
+.sms__feature__description__header {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56.25px;
+}
+
+.sms__feature__description__subheader {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.sms__feature__btn {
+    background-color: #58A8F2;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+
+    width: 152px;
+    height: 56px;
+    margin-left: 150px;
+    border-radius: 64px;
+}
+
+.footer {
+    background: url("../img/background_footer.png");
+    background-repeat: no-repeat;
+
+    margin-top: 500px;
+
+    flex-grow: 1;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 300px;
+}
+
+.footer__header {
+
+    color: white;
+
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-top: 200px;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    height: 508px;
+    border-radius: 20px;
+
+    background-color: white;
+    opacity: 95%;
+
+    padding: 31.23px;
+
+    gap: 20px;
+}
+
+.footer__form__input__item {
+    height: 56.34px;
+    font-style: italic;
+
+    border: 1.5px solid gray;
+    border-radius:4px;
+    padding-left: 20px;
+}
+
+.footer__form__checkbox__container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer__form__checkbox__item {
+    width: 35px;
+    height: 35px;
+    border: 1.5px solid gray;
+
+}
+
+.footer__form__checkbox__description {
+    margin-top: 8px;
+    margin-left: 8px;
+    color: gray;
+
+    font-style: italic;
+}
+
+.footer__form__btn {
+    width: 171.48px;
+    height: 49.72px;
+
+    color: white;
+    background-color: #1890FFA1;
+    border: none;
+    border-radius: 14px;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27.24px;
+    margin-left: 132.45px;
+}
+
+.credits {
+    flex-grow: 1;
+}
+
+.credits_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.credits__container {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.credits__social {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 60px;
+    gap: 70px;
+}
+
+.credits__rights {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 353.5px;
+    gap: 387.5px;
+}
